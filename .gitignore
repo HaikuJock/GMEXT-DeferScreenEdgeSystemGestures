@@ -134,7 +134,10 @@ xcuserdata/
 
 *.moved-aside
 
-iOS/GM_IOS/Fingerband!/Fingerband_/Fingerband_ Tests
-iOS/GM_IOS/Fingerband!/Fingerband_/Fingerband.app*
-iOS/GM_IOS/Fingerband!/Fingerband_FromPC
+iOS/GM_IOS/DeferScreenEdgeSystemGesturesTest/DeferScreenEdgeSystemGesturesTest/DeferScreenEdgeSystemGesturesTest Tests
+iOS/GM_IOS/DeferScreenEdgeSystemGesturesTest/DeferScreenEdgeSystemGesturesTest/DeferScreenEdgeSystemGesturesTest.app*
+iOS/GM_IOS/DeferScreenEdgeSystemGesturesTest/DeferScreenEdgeSystemGesturesTestFromPC
 libyoyo_interpreted_sim.a
+libyoyo_interpreted.a
+game.ios
+game.yydebug

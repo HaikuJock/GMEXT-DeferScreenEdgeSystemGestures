@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>Created with GameMaker</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+        <key>NSExceptionDomains</key>
+		<dict/>
+	</dict>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSMainNibFile</key>
+	<string>MainWindow-iPhone</string>
+	<key>NSMainNibFile~ipad</key>
+	<string>MainWindow</string>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>NSMainNibFile~iphone</key>
+	<string>MainWindow-iPhone</string>
+	<key>UIPrerenderedIcon</key>
+	<true/>
+	
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen.storyboard</string>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+<string>UIInterfaceOrientationPortraitUpsideDown</string>
+<string>UIInterfaceOrientationLandscapeLeft</string>
+<string>UIInterfaceOrientationLandscapeRight</string>
+
+	</array>
+	<key>UIInterfaceOrientations</key>
+	<string>UIInterfaceOrientationPortrait</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	
+	
+	<key>CFBundleURLTypes</key>
+	<array>
+	  <dict>
+	  <key>CFBundleURLSchemes</key>
+	  <array>
+		
+	  </array>
+	  </dict>
+	</array>
+	
+
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+	
+	</array>
+	
+	
+	<key>UIDeviceFamily</key>
+<array>
+<integer>0</integer>
+</array>
+
+	<key>YYHostIP</key>
+<string>127.0.0.1</string>
+<key>YYHostPort</key>
+<string>51269</string>
+<key>YYHostPort</key>
+<string>51269</string>
+<key>YYLaunchFillMode</key>
+<string>0</string>
+<key>YYLaunchScreenBackgroundRed</key>
+<string>1</string>
+<key>YYLaunchScreenBackgroundGreen</key>
+<string>0</string>
+<key>YYLaunchScreenBackgroundBlue</key>
+<string>0</string>
+
+</dict>
+</plist>
