@@ -5,9 +5,9 @@
 #ifndef DeferScreenEdgeSystemGesturesAppDelegate_h
 #define DeferScreenEdgeSystemGesturesAppDelegate_h
 
-#import "iPad_RunnerAppDelegate.h"
+${YYExtAppDelegateIncludes}
 
-@interface DeferScreenEdgeSystemGesturesAppDelegate : iPad_RunnerAppDelegate
+@interface DeferScreenEdgeSystemGesturesAppDelegate : ${YYExtAppDelegateBaseClass}
 
 @end
 
