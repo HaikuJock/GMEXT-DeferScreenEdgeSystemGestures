@@ -34,6 +34,7 @@
     "IDEVersion": "2023.6.0.92",
   },
   "resources": [
+    {"id":{"name":"ext_DeferScreenEdgeSystemGestures","path":"extensions/ext_DeferScreenEdgeSystemGestures/ext_DeferScreenEdgeSystemGestures.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
