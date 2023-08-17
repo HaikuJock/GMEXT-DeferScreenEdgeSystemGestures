@@ -18,7 +18,7 @@
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
         </window>
-        <customObject id="6" customClass="iPad_RunnerAppDelegate">
+        <customObject id="6" customClass="DeferScreenEdgeSystemGesturesAppDelegate">
             <connections>
                 <outlet property="glView" destination="9" id="10"/>
                 <outlet property="runnerViewController" destination="23" id="25"/>

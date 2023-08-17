@@ -37,9 +37,11 @@
 		8A1826131FBB36D5009DA2D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1826121FBB36D5009DA2D8 /* Images.xcassets */; };
 		/*End unused section*/
  		6AD06BAB17A90BE700B37894 /* arch.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6AD06BAC17A90BE700B37894 /* arch.mm */; };
-6AD06BAF17A90BE700B37894 /* options.ini in Sources */ = {isa = PBXBuildFile; fileRef = 6AD06BB017A90BE700B37894 /* options.ini */; };
-6AD06BB317A90BE700B37894 /* game.ios in Sources */ = {isa = PBXBuildFile; fileRef = 6AD06BB417A90BE700B37894 /* game.ios */; };
-6AD06BB717A90BE700B37894 /* game.yydebug in Sources */ = {isa = PBXBuildFile; fileRef = 6AD06BB817A90BE700B37894 /* game.yydebug */; };
+6AD06BAF17A90BE700B37894 /* DeferScreenEdgeSystemGesturesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD06BB017A90BE700B37894 /* DeferScreenEdgeSystemGesturesAppDelegate.m */; };
+6AD06BB317A90BE700B37894 /* NSObject+MHOverride.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD06BB417A90BE700B37894 /* NSObject+MHOverride.m */; };
+6AD06BBF17A90BE700B37894 /* options.ini in Sources */ = {isa = PBXBuildFile; fileRef = 6AD06BC017A90BE700B37894 /* options.ini */; };
+6AD06BC317A90BE700B37894 /* game.ios in Sources */ = {isa = PBXBuildFile; fileRef = 6AD06BC417A90BE700B37894 /* game.ios */; };
+6AD06BC717A90BE700B37894 /* game.yydebug in Sources */ = {isa = PBXBuildFile; fileRef = 6AD06BC817A90BE700B37894 /* game.yydebug */; };
 
 /* End PBXBuildFile section */
 
@@ -74,9 +76,9 @@
 			dstPath = "games";
 			dstSubfolderSpec = 7;
 			files = (
-				6AD06BAF17A90BE700B37894 /* options.ini */,
-				6AD06BB317A90BE700B37894 /* game.ios */,
-				6AD06BB717A90BE700B37894 /* game.yydebug */,
+				6AD06BBF17A90BE700B37894 /* options.ini */,
+				6AD06BC317A90BE700B37894 /* game.ios */,
+				6AD06BC717A90BE700B37894 /* game.yydebug */,
 			);
 			name="Copy Game Files - Included Files";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,9 +124,13 @@
 		8A1826121FBB36D5009DA2D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 
   		6AD06BAC17A90BE700B37894 /* arch.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "arch.mm"; path = "Game/arch.mm"; sourceTree = "<group>"; };
-6AD06BB017A90BE700B37894 /* options.ini */ = {isa = PBXFileReference; lastKnownFileType = file; name = "options.ini"; path = "Supporting Files/games/options.ini"; sourceTree = "<group>"; };
-6AD06BB417A90BE700B37894 /* game.ios */ = {isa = PBXFileReference; lastKnownFileType = file; name = "game.ios"; path = "Supporting Files/games/game.ios"; sourceTree = "<group>"; };
-6AD06BB817A90BE700B37894 /* game.yydebug */ = {isa = PBXFileReference; lastKnownFileType = file; name = "game.yydebug"; path = "Supporting Files/games/game.yydebug"; sourceTree = "<group>"; };
+6AD06BB017A90BE700B37894 /* DeferScreenEdgeSystemGesturesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "DeferScreenEdgeSystemGesturesAppDelegate.m"; path = "Game/iOSSource/DeferScreenEdgeSystemGesturesAppDelegate.m"; sourceTree = "<group>"; };
+6AD06BB417A90BE700B37894 /* NSObject+MHOverride.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MHOverride.m"; path = "Game/iOSSource/NSObject+MHOverride.m"; sourceTree = "<group>"; };
+6AD06BB817A90BE700B37894 /* DeferScreenEdgeSystemGesturesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DeferScreenEdgeSystemGesturesAppDelegate.h"; path = "Game/iOSSource/DeferScreenEdgeSystemGesturesAppDelegate.h"; sourceTree = "<group>"; };
+6AD06BBC17A90BE700B37894 /* NSObject+MHOverride.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+MHOverride.h"; path = "Game/iOSSource/NSObject+MHOverride.h"; sourceTree = "<group>"; };
+6AD06BC017A90BE700B37894 /* options.ini */ = {isa = PBXFileReference; lastKnownFileType = file; name = "options.ini"; path = "Supporting Files/games/options.ini"; sourceTree = "<group>"; };
+6AD06BC417A90BE700B37894 /* game.ios */ = {isa = PBXFileReference; lastKnownFileType = file; name = "game.ios"; path = "Supporting Files/games/game.ios"; sourceTree = "<group>"; };
+6AD06BC817A90BE700B37894 /* game.yydebug */ = {isa = PBXFileReference; lastKnownFileType = file; name = "game.yydebug"; path = "Supporting Files/games/game.yydebug"; sourceTree = "<group>"; };
 6AD06BA817A90BE700B37894 /* iPad_RunnerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "iPad_RunnerAppDelegate.h"; path = "Supporting Files/include/libyoyo/iPad_RunnerAppDelegate.h"; sourceTree = "<group>"; };
 
 /* End PBXFileReference section */
@@ -237,9 +243,9 @@
 				7AD06AEE17A901A300B37894 /* DeferScreenEdgeSystemGesturesTest-Info.plist */,
 				7AD06AEF17A901A300B37894 /* InfoPlist.strings */,
 				7AD06AF417A901A300B37894 /* DeferScreenEdgeSystemGesturesTest-Prefix.pch */,
-				6AD06BB017A90BE700B37894 /* options.ini */, 
-				6AD06BB417A90BE700B37894 /* game.ios */, 
-				6AD06BB817A90BE700B37894 /* game.yydebug */, 
+				6AD06BC017A90BE700B37894 /* options.ini */, 
+				6AD06BC417A90BE700B37894 /* game.ios */, 
+				6AD06BC817A90BE700B37894 /* game.yydebug */, 
 
 			);
 			name = "Supporting Files";
@@ -257,6 +263,10 @@
 			isa = PBXGroup;
 			children = (
 				6AD06BAC17A90BE700B37894 /* arch.mm */,
+6AD06BB017A90BE700B37894 /* iOSSource/DeferScreenEdgeSystemGesturesAppDelegate.m */,
+6AD06BB417A90BE700B37894 /* iOSSource/NSObject+MHOverride.m */,
+6AD06BB817A90BE700B37894 /* iOSSource/DeferScreenEdgeSystemGesturesAppDelegate.h */,
+6AD06BBC17A90BE700B37894 /* iOSSource/NSObject+MHOverride.h */,
 
 			);
 			name = Game;
@@ -434,6 +444,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AD06BAB17A90BE700B37894 /* arch.mm in Sources */, 
+6AD06BAF17A90BE700B37894 /* iOSSource/DeferScreenEdgeSystemGesturesAppDelegate.m in Sources */, 
+6AD06BB317A90BE700B37894 /* iOSSource/NSObject+MHOverride.m in Sources */, 
 
 			);
 			runOnlyForDeploymentPostprocessing = 0;
