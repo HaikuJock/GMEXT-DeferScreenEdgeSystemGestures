@@ -24,6 +24,16 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.0.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>NSMainNibFile</key>
+	<string>MainWindow-iPhone</string>
+	<key>NSMainNibFile~ipad</key>
+	<string>MainWindow</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
         <key>NSAllowsArbitraryLoads</key>
@@ -31,23 +41,10 @@
         <key>NSExceptionDomains</key>
 		<dict/>
 	</dict>
-	<key>CFBundleShortVersionString</key>
-	<string>1.0.0</string>
-	<key>LSRequiresIPhoneOS</key>
-	<true/>
-	<key>NSMainNibFile</key>
-	<string>MainWindow-iPhone</string>
-	<key>NSMainNibFile~ipad</key>
-	<string>MainWindow</string>
-	<key>UIRequiresFullScreen</key>
-	<true/>
 	<key>NSMainNibFile~iphone</key>
 	<string>MainWindow-iPhone</string>
 	<key>UIPrerenderedIcon</key>
 	<true/>
-	
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen.storyboard</string>
 	<key>UIStatusBarHidden</key>
 	<true/>
 	<key>UISupportedInterfaceOrientations</key>
@@ -58,6 +55,8 @@
 <string>UIInterfaceOrientationLandscapeRight</string>
 
 	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen.storyboard</string>
 	<key>UIInterfaceOrientations</key>
 	<string>UIInterfaceOrientationPortrait</string>
 	<key>ITSAppUsesNonExemptEncryption</key>

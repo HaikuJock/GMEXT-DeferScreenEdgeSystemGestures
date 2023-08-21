@@ -76,7 +76,7 @@ static Class OverrideClass(id self, SEL _cmd)
     }
 
     // See also: http://www.friday.com/bbum/2011/03/17/ios-4-3-imp_implementationwithblock/
-    IMP imp = imp_implementationWithBlock(block);
+    IMP imp = imp_implementationWithBlock((id)block);
 
     if (!class_addMethod(subclass, selector, imp, method_getTypeEncoding(m)))
     {
@@ -90,7 +90,7 @@ static Class OverrideClass(id self, SEL _cmd)
 - (void *)mh_superForSelector:(SEL)selector
 {
 #if OVERRIDE_CLASS_METHOD
-    return [[self class] instanceMethodForSelector:selector];
+    return (void * _Nonnull)[[self class] instanceMethodForSelector:selector];
 #else
     NSString *prefix = [NSString stringWithFormat:@"MHOverride_%p_", self];
 

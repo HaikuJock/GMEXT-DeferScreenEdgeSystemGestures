@@ -134,9 +134,7 @@ xcuserdata/
 
 *.moved-aside
 
-iOS/GM_IOS/DeferScreenEdgeSystemGesturesTest/DeferScreenEdgeSystemGesturesTest/DeferScreenEdgeSystemGesturesTest Tests
-iOS/GM_IOS/DeferScreenEdgeSystemGesturesTest/DeferScreenEdgeSystemGesturesTest/DeferScreenEdgeSystemGesturesTest.app*
-iOS/GM_IOS/DeferScreenEdgeSystemGesturesTest/DeferScreenEdgeSystemGesturesTestFromPC
+iOS/GM_IOS/*
 libyoyo_interpreted_sim.a
 libyoyo_interpreted.a
 game.ios
